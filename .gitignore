@@ -1,1 +1,27 @@
+# Entorno virtual
 .venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Variables de entorno
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Cobertura
+.coverage
+htmlcov/
+
+# Logs
+*.log
