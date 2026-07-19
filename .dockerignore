@@ -1,8 +1,13 @@
-.venv
 .git
 .gitignore
+.venv
 __pycache__
 *.pyc
+*.pyo
+*.pyd
 .pytest_cache
 .vscode
-.env
+.idea
+.DS_Store
+README.md
+docs
