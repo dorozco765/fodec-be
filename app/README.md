@@ -174,6 +174,13 @@ Respuesta esperada
 }
 ```
 
+## Consulta de saldo
+
+Los endpoints de verificación OTP y consulta de saldo están documentados en
+[`docs/associate-otp.md`](docs/associate-otp.md). La hoja se consulta mediante
+Google Sheets API y las credenciales de Google y SMTP se configuran únicamente
+mediante variables de entorno/Secret Manager.
+
 ---
 
 # Verificación del entorno Google Cloud
