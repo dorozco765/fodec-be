@@ -160,20 +160,6 @@ http://localhost:8080
 
 ---
 
-# Endpoint de prueba
-
-```
-GET /api/hello
-```
-
-Respuesta esperada
-
-```json
-{
-    "name": "Daniel Orozco"
-}
-```
-
 ## Consulta de saldo
 
 Los endpoints de verificación OTP y consulta de saldo están documentados en

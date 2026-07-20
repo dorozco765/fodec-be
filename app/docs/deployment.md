@@ -139,14 +139,6 @@ Ejecutar localmente
 docker run -p 8080:8080 fodec-api
 ```
 
-Verificar
-
-```text
-http://localhost:8080/api/hello
-```
-
-La API debe responder correctamente antes de iniciar cualquier despliegue.
-
 ---
 
 # Cloud Build
@@ -186,7 +178,6 @@ Después del primer despliegue se documentarán:
 Después de publicar una nueva versión deberá verificarse:
 
 * El servicio responde correctamente.
-* El endpoint `/api/hello` retorna HTTP 200.
 * El frontend puede consumir la API.
 * No existen errores en Cloud Run.
 * No existen errores en Cloud Logging.
